@@ -1,0 +1,158 @@
+#homepage{
+    background-color:#995F2F ;
+    background-image: url(https://i.pinimg.com/736x/d5/7c/1e/d57c1e61e3d9c4519c271f9a0629e37a.jpg);
+    background-size: cover;
+height:100vh;
+width:100vw;
+
+}
+
+table{
+    width:95vw;
+}
+.heading{
+    text-align: right;
+    font-size: xx-large;
+    color:antiquewhite;
+    
+    
+}
+#page2{
+    background-color:#8C5A3C ;
+}
+
+#mainheading{
+     height:600px;
+     text-align:left;
+}
+#navbar{
+    color:white;
+    text-decoration: none;
+    font-family:Lucida Sans Unicode;
+    font-weight: 400;
+}
+#table2{
+    height:80px;
+    width:50vw;
+}
+.table3{
+    text-align: center;
+    font-size: large;
+}
+.page2heading{
+    text-align: center;
+    font-family: Bodoni MT;
+    color:rgb(245, 247, 248);
+}
+#why{
+    width:70vw;
+    font-size: larger;
+    
+}
+#morning{
+    background-image: url(https://i.pinimg.com/736x/1d/02/ae/1d02ae309fd1ed6ad835d8eaa7842f16.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height:400px;
+    width:100vw;
+    color:wheat;
+    font-size: large;
+}
+#footer{
+    width:70vw;
+    height:300px;
+}
+#aboutpage{
+    border-radius: 20px; 
+    background-color:rgb(140,90,60,0.4);
+    font-size: large;
+    font-weight: 500;
+}
+#body{
+    
+    background-image: url(https://i.pinimg.com/1200x/49/5c/53/495c535e239ba3179aeed6be4856d2fd.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+
+#abouttable{
+    width:75vw;
+    height:70vh;
+   color:aliceblue;
+   border-right: 10px;
+   font-size: large;
+}
+#review{
+    background-image: url(https://i.pinimg.com/736x/9e/56/0c/9e560cdb73ae2abfd80577e093f8335b.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height:70vh;
+    width:100vw;
+    color:white;
+    text-align: center;
+
+}
+#customertable{
+    width:70vw;
+    height:30vh;
+    border-radius: 30px;
+}
+.reservations{
+    text-align: center;
+}
+.book{
+    height:30px;
+    width:100px;
+    text-align: center;
+    font-size:medium;
+    background-color:burlywood;
+}
+.online{
+    text-align: center;
+    color:antiquewhite;
+}
+#box1{
+    width:40vw;
+    height:45vh;
+    background-color: rgb(98, 43, 20,0.7);
+    text-align: center;
+    margin-left:200px;
+    border-radius: 20px;
+}
+#box2{
+    width: 50vw; 
+    border-radius: 20px;
+    background-color:rgb(98, 43, 20,0.7);
+    margin-left:100px;
+}
+
+.contact{
+    width:80vw;
+    height:50vh;
+    background-color:#4B2E2B;
+}
+.get{
+    height:28px ; 
+    width:170px;
+}
+#map{
+    width:60vw;
+    height:40vh;
+}
+#line{
+    width:100vw;
+    height:8vh;
+    background-color: #DBCEA5;
+    font-size: xx-large;
+    font-family:lucida handwriting;
+    font-weight: 900;
+    text-align: center;
+
+}
+#video{
+    height:40vh ;
+    width:28vw; 
+}

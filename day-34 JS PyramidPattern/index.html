@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+// <------------PYRAMID PATTERNS----------->
+// pattern-1
+//     1
+//    222
+//   33333
+//  4444444
+// 555555555
+document.write("1) pattern-1")
+document.write("<br>")
+for(let j=1;j<=5;j++){
+    for(let s=j;s<5;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=j;i>=1;i--){
+        document.write(j)
+    }
+    for(let k=j-1;k>=1;k--){
+        document.write(j)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+// pattern-2
+// 555555555
+//  4444444
+//   33333
+//    222
+//     1
+document.write("2) pattern-2 ")
+document.write("<br>")
+for(let j=5;j>=1;j--){
+    for(let s=j;s<5;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=1;i<=j;i++){
+        document.write(j)
+    }
+   for(let k=j;k>=2;k--){
+    document.write(j)
+   }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+
+// pattern-3
+//     5
+//    444
+//   33333
+//  2222222
+// 111111111
+document.write("3) pattern-3 ")
+document.write("<br>")
+for(let j=5;j>=1;j--){
+    for(let s=1;s<=j;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=5;i>=j;i--){
+        document.write(j)
+    }
+    for(let k=j;k<=4;k++){
+        document.write(j)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+// pattern-4
+// 111111111
+//  2222222
+//   33333
+//    444
+//     5
+document.write("4) pattern-4")
+document.write("<br>")
+
+for(let j=1;j<=5;j++){
+    for(let s=1;s<j;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=5;i>=j;i--){
+        document.write(j)
+
+    }
+    for(let k=j+1;k<=5;k++){
+        document.write(j)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+
+// pattern-5
+//     1
+//    212
+//   32123
+//  4321234
+// 543212345
+document.write("5) pattern-5")
+document.write("<br>")
+for(let j=1;j<=5;j++){
+    for(let s=5;s>j;s--){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=j;i>=1;i--){
+        document.write(i)
+    }
+    for(let k=2;k<=j;k++){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+// pattern-6
+//     5
+//    454
+//   34543
+//  2345432
+// 123454321
+document.write("6) pattern-6")
+document.write("<br>")
+for(let j=5;j>=1;j--){
+    for(let s=1;s<j;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=j;i<=5;i++){
+        document.write(i)
+    }
+    for(let k=4;k>=j;k--){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+
+// pattern-7
+//     1
+//    121
+//   12321
+//  1234321
+// 123454321
+document.write("7) pattern-7")
+document.write("<br>")
+for(let j=1;j<=5;j++){
+    for(let s=5;s>=j;s--){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=1;i<=j;i++){
+        document.write(i)
+    }
+    for(let k=j-1;k>=1;k--){
+        document.write(k)
+    }
+
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+
+// pattern-8
+//     5
+//    545
+//   54345
+//  5432345
+// 543212345
+document.write("8) pattern-8")
+document.write("<br>")
+for(let j=5;j>=1;j--){
+    for(let s=1;s<j;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=5;i>=j;i--){
+        document.write(i)
+    }
+    for(let k=j+1;k<=5;k++){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+// pattern-9
+// 543212345
+//  5432345
+//   54345
+//    545
+//     5
+document.write("9) pattern-9")
+document.write("<br>")
+
+for(let j=1;j<=5;j++){
+    for(let s=1;s<=j;s++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=5;i>=j;i--){
+    document.write(i)
+    }
+    for(let k=j+1;k<=5;k++){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+// pattern-10
+// 123454321
+//  1234321
+//   12321
+//    121
+//     1
+document.write("10) pattern-10")
+document.write("<br>")
+for(let j=5;j>=1;j--){
+    for(let s=5;s>j;s--){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=1;i<=j;i++){
+        document.write(i)
+    }
+    for(let k=j-1;k>=1;k--){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+
+// pattern-11
+// 543212345
+//  4321234
+//   32123
+//    212
+//     1
+document.write("11) pattern-11")
+document.write("<br>")
+for(let j=5;j>=1;j--){
+    for(let s=5;s>j;s--){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(let i=j;i>=1;i--){
+        document.write(i)
+    }
+    for(let k=2;k<=j;k++){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+document.write("<br>")
+
+
+// pattern-12
+// 123454321
+//  2345432
+//   34543
+//    454
+//     5
+document.write("12) pattern-12")
+document.write("<br>")
+for(let j=1;j<=5;j++){
+    for(let s=1;s<j;s++){
+        document.write("&nbsp;&nbsp")
+    }
+    for(let i=j;i<=5;i++){
+        document.write(i)
+    }
+    for(let k=4;k>=j;k--){
+        document.write(k)
+    }
+    document.write("<br>")
+}
+
+
+
+
+    </script>
+</body>
+</html>

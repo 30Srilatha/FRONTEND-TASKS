@@ -1,0 +1,214 @@
+*{
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #ddd;
+}
+header{
+background-image: linear-gradient(45deg, rgb(239, 60, 28) 0%, rgb(184, 23, 44) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    color:white;
+    box-shadow: 2px 2px 10px #111 ;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+a:hover{
+    background-color: #fff;
+    color:rgb(184, 23, 44);
+    border-radius: 3px;
+    font-size: 22px;
+   
+}
+main{
+    display: flex;
+
+}
+section{
+    width:100%;
+}
+aside{
+    background-color:antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+    margin:15px;
+    width:180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:20px;
+    box-shadow: 5px 5px 15px #111 ;
+}
+#side{
+    background-color: #ccc;
+    height:35px;
+    width:110px;
+    border-radius: 10px;
+    line-height: 35px;
+    font-weight: 600;
+}
+#side:hover{
+    background-color: rgb(236, 52, 20);
+    color:white;
+}
+#dash{
+    color:rgb(222, 43, 43);
+}
+
+#mainbox{
+background-image: linear-gradient(to bottom, rgb(247, 89, 61), rgb(255, 126, 35));
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:23vh;
+     border-radius: 20px;
+    margin:15px;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 15px #111 ;
+}
+#order{
+    height:30px;
+    width:110px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: 600;
+    color:rgb(250, 60, 27);
+}
+#off{
+    background-color: #fff;
+    color:tomato;
+    height:120px;
+    width: 120px;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    box-shadow: 5px 5px 40px white;
+    border-radius: 90px;
+}
+#para{
+font-size: 35px;
+position: relative;
+top:10px;
+}
+#para3{
+    position: relative;
+    bottom:15px;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+}
+#box{
+   border:5px solid white;
+   border-radius: 25px;
+   height:300px;
+   width:400px;
+   padding:8px;
+   background-color: #fff;
+   box-shadow: 5px 5px 15px #111 ;
+  
+}
+img{
+    border-radius: 20px;
+ position: relative;
+ bottom: 1px;
+
+}
+#tag{
+background-color: rgb(240, 1, 1);
+height:30px;
+width:40px;
+border-radius: 15px;
+text-align: center;
+line-height: 30px;
+position: relative;
+bottom:175px;
+left:337px;
+color:white;
+font-weight: 600;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#content{
+    position: relative;
+    bottom:55px;
+}
+#button{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   position: relative;
+   bottom:10px;
+
+}
+#buy{
+    background-color: rgb(241, 57, 57);
+    width:60px;
+    height:30px;
+    border-radius:8px;
+    font-weight: 600;
+    color:white;
+}
+#para1{
+    color:rgb(246, 50, 15);
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+#price{
+    font-weight: 700;
+    font-size: larger;
+    color:green;
+}
+#section1{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+     margin:8px;
+     gap:20px;
+}
+#subbox{
+    border:2px solid white;
+    border-radius: 25px;
+   height:120px;
+   width:400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   line-height: 1px;
+   background-color: white;
+   box-shadow: 5px 5px 15px #111 ;
+}
+#para2{
+    font-weight:bold;
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    height:7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+    background-image: linear-gradient(45deg, rgb(239, 60, 28) 0%, rgb(184, 23, 44) 100%);
+
+}

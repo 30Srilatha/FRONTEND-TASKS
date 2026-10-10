@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+            var num1=parseInt(document.getElementById("n1").value)
+            var num2=parseInt(document.getElementById("n2").value)
+            var result=num1 + num2;
+            document.getElementById("result").value=result;
+        }
+         function sub(){
+            var num1=parseInt(document.getElementById("n1").value)
+            var num2=parseInt(document.getElementById("n2").value)
+            var result=num1 - num2;
+            document.getElementById("result").value=result;
+        }
+         function mul(){
+            var num1=parseInt(document.getElementById("n1").value)
+            var num2=parseInt(document.getElementById("n2").value)
+            var result=num1 * num2;
+            document.getElementById("result").value=result;
+        }
+         function division(){
+            var num1=parseInt(document.getElementById("n1").value)
+            var num2=parseInt(document.getElementById("n2").value)
+            var result=num1 / num2;
+            document.getElementById("result").value=result;
+        }
+         function power(){
+            var num1=parseInt(document.getElementById("n1").value)
+            var num2=parseInt(document.getElementById("n2").value)
+            var result=num1 ** num2;
+            document.getElementById("result").value=result;
+        }
+    </script>
+
+    <!-- css -->
+
+    <style>
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:25px;
+            border:3px solid black;
+            border-radius: 30px;
+            width:500px;
+            height:500px;
+            margin:200px;
+            font-size: large;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background: linear-gradient(to top, rgb(160, 171, 240), rgb(43, 49, 107));
+            color:white;
+        }
+        .box input{
+            height:25px;
+            width:150px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .buttons{
+            margin-top: 30px;
+            display: flex;
+            gap:30px;
+            flex-wrap: wrap;
+            width:300px;
+        }
+        .buttons button{
+            width:120px;
+            height: 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            box-shadow: -2px -2px 2px rgb(88, 86, 86);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div><label for="'">Enter number 1 :  </label>
+        <input type="text" placeholder="enter number1" id="n1"></div>
+        <div><label for="">Enter number 2 :  </label>
+        <input type="text" placeholder="enter number2" id="n2"></div>
+<!-- result -->
+        <div style="margin-left: 80px;"><label for="">Result :  </label>
+        <input type="text" placeholder="result" id="result" readonly></div>
+<!-- buttons -->
+        <div class="buttons">
+        <button onclick="add()">ADD (+)</button>
+        <button onclick="sub()">SUBSTRACT (-)</button>
+        <button onclick="mul()">MULTIPLY (*)</button>
+        <button onclick="division()">DIVISION (/)</button>
+        <button onclick="power()">POWER (**)</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             .box{
+                display:flex ;
+                flex-direction: column;
+                gap:30px;
+                justify-content: center;
+                align-items: center;
+                border:5px solid grey;
+                border-radius: 20px;
+                margin:250px 0px 0px 550px;
+                width:400px;
+                height:300px;
+                font-size: large;
+                font-weight: 600;
+                background-color: lavender;
+                box-shadow:7px 7px 10px grey ;
+             }
+             .box button{
+                width:100px;
+                height: 30px;
+                font-weight: 600;
+                background-color: rgb(213, 213, 245);
+                border-radius: 40px;
+             }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div><label for="">Enter number 1 : </label>
+    <input type="text" id="n1"></div>
+    <div><label for="">Enter number 2 :</label>
+    <input type="text" id="n2"></div>
+    <div><label for="">Enter number 3 :</label>
+    <input type="text" id="n3"></div>
+    <div><label for="">Result : </label>
+    <input type="text" placeholder="result" id="sum" readonly></div>
+    <div><button onclick="sum()">ADD</button></div>
+    </div>
+    <script type="text/javascript" src="sumofNumbers.js"></script>
+</body>
+</html>

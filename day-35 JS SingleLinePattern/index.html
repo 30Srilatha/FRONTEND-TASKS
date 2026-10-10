@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // *****
+      // 12345
+      // *****
+      // 12345
+      // *****
+      document.write("1) pattern");
+      document.write("<br>");
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (j % 2 != 0) {
+            document.write("*");
+          } else {
+            document.write(i);
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *2*4*
+      // *2*4*
+      // *2*4*
+      // *2*4*
+      // *2*4*
+      document.write("2) pattern");
+      document.write("<br>");
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (i == 1 || i == 3 || i == 5) {
+            document.write("*");
+          } else {
+            document.write(i);
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // * * *
+      // * * *
+      // * * *
+      document.write("3) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (i == 1 || i == 3 || i == 5) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      //   *
+      //   *
+      // *****
+      //   *
+      //   *
+      document.write("4) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (i == 3 || j == 3) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *****
+      // *    *
+      // *    *
+      // *    *
+      // *****
+      document.write("5) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (i == 1 || i == 5 || j == 1 || j == 5) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *******
+      // *  *  *
+      // *  *  *
+      // *******
+      // *  *  *
+      // *  *  *
+      // *******
+      document.write("6) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 7; j++) {
+        for (let i = 1; i <= 7; i++) {
+          if (j == 1 || j == 4 || j == 7 || i == 1 || i == 4 || i == 7) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // ****  *
+      //    *  *
+      //    *  *
+      // *******
+      // *  *
+      // *  *
+      // *  ****
+      document.write("7) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 7; j++) {
+        for (let i = 1; i <= 7; i++) {
+          if (
+            j == 4 ||
+            i == 4 ||
+            (j == 1 && i <= 4) ||
+            (j == 7 && i >= 4) ||
+            (i == 1 && j >= 4) ||
+            (i == 7 && j <= 4)
+          ) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *
+      //  *
+      //   *
+      //    *
+      //      *
+      document.write("8) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (j == i) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      //         *
+      //       *
+      //     *
+      //   *
+      // *
+      document.write("9) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (j + i == 6) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *              *
+      //   *          *
+      //     *      *
+      //       *  *
+      //         *
+      //       *  *
+      //     *      *
+      //   *          *
+      // *              *
+      document.write("10) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 9; j++) {
+        for (let i = 1; i <= 9; i++) {
+          if (j == i || j + i == 10) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *              *
+      //   *          *
+      //     *      *
+      //       *  *
+      //         *
+      //         *
+      //         *
+      //         *
+      //         *
+      document.write("11) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 9; j++) {
+        for (let i = 1; i <= 9; i++) {
+          if (
+            (j == i && j <= 5) ||
+            (i == 5 && j >= 5) ||
+            (i + j == 10 && j <= 5)
+          ) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *   *****
+      // *   *
+      // *   *
+      // *   *
+      // *********
+      //     *   *
+      //     *   *
+      //     *   *
+      // *****   *
+      document.write("12) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 9; j++) {
+        for (let i = 1; i <= 9; i++) {
+          if (
+            i == 5 ||
+            j == 5 ||
+            (i == 1 && j <= 5) ||
+            (i == 9 && j >= 5) ||
+            (j == 1 && i >= 5) ||
+            (j == 9 && i <= 5)
+          ) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      //     *
+      //    *  *
+      // *********
+      //   *   *
+      // *********
+      //    *  *
+      //     *
+      document.write("13) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 7; j++) {
+        for (let i = 1; i <= 9; i++) {
+          if (
+            j == 3 ||
+            j == 5 ||
+            j + i == 6 ||
+            i - j == 4 ||
+            j - i == 2 ||
+            j + i == 12
+          ) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // *******
+      //    *
+      //    *
+      //    *
+      // *  *
+      //  * *
+      //   **
+      document.write("14) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 7; j++) {
+        for (let i = 1; i <= 7; i++) {
+          if (j == 1 || i == 4 || (j - i == 4 && j >= 5 && i <= 4)) {
+            document.write("*");
+          } else {
+            document.write("&nbsp;&nbsp;");
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      // pairs sum is 5
+      // 123*5
+      // 12*45
+      // 1*345
+      // *2345
+      // 12345
+      document.write("15) pattern");
+      document.write("<br>");
+
+      for (let j = 1; j <= 5; j++) {
+        for (let i = 1; i <= 5; i++) {
+          if (i + j == 5) {
+            document.write("*");
+          } else {
+            document.write(i);
+          }
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+    </script>
+  </body>
+</html>
